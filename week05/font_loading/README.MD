@@ -1,0 +1,1 @@
+Unfortunately, loadFont is very buggy and only works with some fonts. If you use the sample code on this page and it doesn't work, try a different font. Or, just use websafe fonts and type in the websafe name as a String in place of my myFont variable.
