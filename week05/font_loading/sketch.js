@@ -1,7 +1,7 @@
 var myFont;
 
 function preload() {
-  myFont = loadFont('assets/LeagueGothic-Regular.otf');
+  // myFont = loadFont('assets/LeagueGothic-Regular.otf');
 }
 
 function setup() {
@@ -12,6 +12,7 @@ function setup() {
 function draw() {
   background(0);
   fill(255).noStroke();
-  textFont(myFont);
+  textFont('Georgia');
+  textSize(32);
   text('Look', 10, 20);
 }
