@@ -3,6 +3,11 @@ class Tile {
     this.xPosition = xPosition;
     this.yPosition = yPosition;
     this.tileSize = tileSize;
+    this.processData();
+  }
+
+  processData() {
+
   }
 
   update() {
