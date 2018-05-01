@@ -40,9 +40,8 @@ function setup() {
   tiles.push(new LMTile(tileCoords[tileNum].x, tileCoords[tileNum].y, tileSize));
   tileNum++;
 
-  // needs refactor
-  // tiles.push(new NTTile(tileCoords[tileNum].x, tileCoords[tileNum].y, tileSize));
-  // tileNum++;
+  tiles.push(new NTTile(tileCoords[tileNum].x, tileCoords[tileNum].y, tileSize));
+  tileNum++;
 
   tiles.push(new OJTile(tileCoords[tileNum].x, tileCoords[tileNum].y, tileSize));
   tileNum++;
@@ -62,7 +61,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  // background(0);
 
   for (var i = 0; i < tiles.length; i++) {
     tiles[i].update();

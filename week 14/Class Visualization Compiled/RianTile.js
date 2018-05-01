@@ -74,19 +74,19 @@ class RianTile extends Tile {
 		}
 	}
 
-  display() {
-  	super.display();
+	display() {
+		super.display();
 
-    noStroke();
-    for(var i =0; i<14;i++){
-		this.icecream[i].iceCreamDisplay();
-		this.icecream[i].iceCreamUpdate();
+		noStroke();
+		for(var i =0; i<14;i++){
+			this.icecream[i].iceCreamDisplay();
+			this.icecream[i].iceCreamUpdate();
+		}
+
+		// call super class' display method so we get our
+		// clean matrix and translation
+
+
 	}
-
-    // call super class' display method so we get our
-    // clean matrix and translation
-
-
-  }
 
 }
